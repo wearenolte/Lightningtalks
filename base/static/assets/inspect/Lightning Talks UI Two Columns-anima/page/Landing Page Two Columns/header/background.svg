@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1112px" viewBox="0 0 1920 1112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>14308E0B-ACA2-4761-B58E-31317DA06E36</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#E76E5C" offset="0%"></stop>
+            <stop stop-color="#E4578B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#7376D4" offset="0%"></stop>
+            <stop stop-color="#746FAB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#7AC080" offset="0%"></stop>
+            <stop stop-color="#54B87B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#EF8C73" offset="0%"></stop>
+            <stop stop-color="#E48557" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#29DDE2" offset="0%"></stop>
+            <stop stop-color="#28C1DB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-Two-Columns" fill-rule="nonzero">
+            <g id="header" transform="translate(-318.000000, -772.000000)">
+                <g id="background">
+                    <circle id="Oval-Copy-3" fill="url(#linearGradient-1)" cx="1744.5" cy="1249.5" r="82.5"></circle>
+                    <circle id="Oval" fill="url(#linearGradient-2)" cx="698.5" cy="1315.5" r="65.5"></circle>
+                    <ellipse id="Oval" fill="#F2F4F7" cx="1278.5" cy="1864.5" rx="1278.5" ry="598.5"></ellipse>
+                    <circle id="Oval-Copy" fill="url(#linearGradient-3)" cx="834.5" cy="1014.5" r="9.5"></circle>
+                    <circle id="Oval-Copy-4" stroke="#FF66A9" stroke-width="5" cx="1141.5" cy="917.5" r="9.5"></circle>
+                    <circle id="Oval-Copy-2" fill="url(#linearGradient-4)" cx="1598.5" cy="1070.5" r="26.5"></circle>
+                    <path d="M959.5,1111.26505 L962.887961,1107.87709 C964.057411,1106.70764 965.953463,1106.70764 967.122913,1107.87709 C968.292362,1109.04654 968.292362,1110.94259 967.122913,1112.11204 L963.734952,1115.5 L967.122913,1118.88796 C968.292362,1120.05741 968.292362,1121.95346 967.122913,1123.12291 C965.953463,1124.29236 964.057411,1124.29236 962.887961,1123.12291 L959.5,1119.73495 L956.112039,1123.12291 C954.942589,1124.29236 953.046537,1124.29236 951.877087,1123.12291 C950.707638,1121.95346 950.707638,1120.05741 951.877087,1118.88796 L955.265048,1115.5 L951.877087,1112.11204 C950.707638,1110.94259 950.707638,1109.04654 951.877087,1107.87709 C953.046537,1106.70764 954.942589,1106.70764 956.112039,1107.87709 L959.5,1111.26505 Z" id="Combined-Shape" fill="#FF66A9"></path>
+                    <rect id="Rectangle-Copy-2" fill="#06DBF0" transform="translate(1718.313708, 1007.313708) scale(-1, 1) rotate(-315.000000) translate(-1718.313708, -1007.313708) " x="1705.81371" y="1003.81371" width="25" height="7" rx="3.5"></rect>
+                    <rect id="Rectangle" fill="url(#linearGradient-5)" transform="translate(1710.650631, 477.650631) rotate(-45.000000) translate(-1710.650631, -477.650631) " x="1192.15063" y="320.650631" width="1037" height="314" rx="157"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

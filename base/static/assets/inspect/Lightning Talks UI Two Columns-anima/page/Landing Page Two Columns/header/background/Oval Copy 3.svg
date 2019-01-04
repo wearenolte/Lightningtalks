@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="165px" height="165px" viewBox="0 0 165 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>8DA82591-19C8-4DC0-85AE-5B2104D62BB9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#E76E5C" offset="0%"></stop>
+            <stop stop-color="#E4578B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-Two-Columns" transform="translate(-1344.000000, -395.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="header" transform="translate(-318.000000, -772.000000)">
+                <g id="background">
+                    <circle id="Oval-Copy-3" cx="1744.5" cy="1249.5" r="82.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

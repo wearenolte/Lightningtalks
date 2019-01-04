@@ -1,0 +1,17 @@
+version: '2'
+services:
+
+    # Web
+    web:
+        stdin_open: true
+        tty: true
+        image: lightning
+        build:
+            context: .
+            dockerfile: Dockerfile
+        env_file: .env
+        volumes:
+            - ./base:/app
+        ports:
+            - "8000:8000"
+        entrypoint: ["python", "manage.py", "runserver", "0.0.0.0:8000"]

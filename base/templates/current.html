@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="hero">
+	<h1>Nolte's Lightning Talks</h1>
+	
+	<div class="current form-style-6">
+		<p>Complete the proccess {{current}}.</p>
+		<form method="post">
+    	{% csrf_token %}
+    	{{ form.as_p }}
+    	<input type="submit" value="Save talk">
+		</form>
+	</div>
+
+</div>
+
+{% endblock %}
