@@ -9,7 +9,16 @@
       <div class="logo"></div>
     </div>
     <div class="col-3 text-right">
-      <a class="a__current" href="{% url 'current' %}" data-toggle="modal" data-target="#currentForm">Current speaker</a>
+      {% if user.is_authenticated %}
+        {% ifequal user.id current.user_id %}
+        <a class="a__current"
+          href="{% url 'current' %}"
+          data-toggle="modal"
+          data-target="#currentForm">
+          Current speaker
+        </a>
+        {% endifequal %}
+      {% endif %}
     </div>
   </div>
 
@@ -33,7 +42,7 @@
 			  <option value="0">All Categories</option>
 			  <option value="team_culture">Team Culture</option>
 			  <option value="product_management">Product Management</option>
-			  <option value="marketing">Marketing</option>
+			  <option value="marketing">Sales & Marketing</option>
 			  <option value="tech">Technology</option>
 			  <option value="design">Design</option>
 			</select>

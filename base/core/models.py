@@ -4,7 +4,7 @@ from django.db import models
 TOPICS = (
     ('team_culture', 'Team Culture'),
     ('product_management', 'Product Mgmt'),
-    ('marketing', 'Marketing'),
+    ('marketing', 'Sales & Marketing'),
     ('tech', 'Technology'),
     ('design', 'Design'),
 )

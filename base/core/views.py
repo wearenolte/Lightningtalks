@@ -10,14 +10,13 @@ from .forms import TalksForm
 
 
 @render_to('home.html')
-def home(request,cicle=None, topic=None):
+def home(request, cicle=None, topic=None):
 	if cicle is None:
 		cicle = Talks.objects.get(pk=1).cicle
 	if topic and topic != '0':
 		talks = Talks.objects.filter(cicle=cicle, topic=topic).order_by('-date')
 	else:
 		talks = Talks.objects.filter(cicle=cicle).order_by('-date')
-
 	current = Human.objects.get(is_active=True, current=True)
 	form = TalksForm(initial={'human': current})
 	return { 'talks' : talks, 'current' : current, 'form': form }

@@ -11,4 +11,4 @@ class HumanAdmin(admin.ModelAdmin):
 @admin.register(Talks)
 class TalksAdmin(admin.ModelAdmin):
 	list_display = ( 'id', 'human', 'name', 'topic', 'cicle', 'date')
-	list_filter = ('human', 'topic')
+	list_filter = ('cicle', 'topic', 'human')
