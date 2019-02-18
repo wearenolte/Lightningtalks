@@ -66,7 +66,8 @@ def victim(request):
 	victim.save()
 
 	m = ''
-	if available.count() == 1:
+	print(available.count())
+	if available.count() == 0:
 		humans = Human.objects.filter(is_active=True)
 		cycle = Talks.objects.get(pk=1)
 		m = f'End of cycle #{cycle.cicle}'
